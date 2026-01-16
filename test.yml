@@ -1,15 +1,1 @@
 # simpilar to json - yml is also key value pair, just a bit more readable
-name: shell commands
-
-on: [push]
-
-jobs:
-  run-shell-commands:
-   runs-on: ubuntu-latest
-   steps:
-    - name: echo a string
-      run: echo "Jay Shree Krishna"
-    - name: multiline script
-      run: |
-        node -v
-        npm -v
