@@ -17,3 +17,13 @@ jobs:
         import platform
         print(platform.processor())
       shell: python
+  # creating a new vm, windows to use bash command 
+  # if we simple create a new vm it will run parallel to each other
+  run-windows-command:
+   runs-on: windows-latest
+   steps:
+    - name: Directory Powershell
+      run: Get-Location
+    - name: Directory Bash
+      run: pwd
+      shell: bash
