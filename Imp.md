@@ -1,4 +1,4 @@
-
+github commands
 Undo git add (unstage)....................git restore --staged file.txt
 Discard local file changes....................git restore file.txt
 Undo last commit but keep changes....................git reset --soft HEAD~1
