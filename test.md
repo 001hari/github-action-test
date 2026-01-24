@@ -137,7 +137,7 @@ input: testing for pull req to trigger the workflow
 
 # Then we move directly to automated testing + deployment pipelines
 
-````
+
 A1. three reasons are a. no trigger on push b. no jobs written c, forgot to write the runs-on
 
 A2. jobs can have multiple steps to run while step have sequence of steps wriiten to run in the vm and action is the exact code that we have to run, jobs contain steps and steps contain action
@@ -284,3 +284,4 @@ A4. skip
 
   A6. when i want to know that a prev job or step is canceled or error i will use this function
 
+testing...................
